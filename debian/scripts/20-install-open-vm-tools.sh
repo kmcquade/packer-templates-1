@@ -57,9 +57,11 @@ export DEBIAN_FRONTEND="noninteractive"
 # Make APT aware of the new packages available from the backports repo
 apt-get update > ${REDIRECT}
 
-# Install the fuse package and then open-vm-tools from the backports repo
+# Install the fuse package
 apt-get -y install fuse > ${REDIRECT}
-apt-get -y -t jessie-backports install open-vm-tools > ${REDIRECT}
+# Install the VMware tools package from the backports repository and all
+# dependencies from stable/main
+apt-get -y install open-vm-tools/jessie-backports > ${REDIRECT}
 
 
 exit 0
