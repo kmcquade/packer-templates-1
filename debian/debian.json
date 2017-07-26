@@ -6,7 +6,7 @@
     "part_scheme": "std",
 
     "debug": "false",
-    "headless": "false",
+    "headless": "true",
 
     "iso_url": "file:///Users/dan/stuff/iso/os/debian/debian8.8x86_64/debian-8.8.0-amd64-CD-1.iso",
     "iso_checksum": "83d62419780567e0ffb3622d5a4a66dd00c75aeefd33d4456223304d73fa525c0546d4c21a4809df6d4d89bc055d0247cb0e21922a8684d4a744e13dff3bc61c",
@@ -238,9 +238,10 @@
         "scripts/00-grub-config.sh",
         "scripts/01-disable-system-beep.sh",
         "scripts/02-configure-ssh.sh",
-        "scripts/03-debian-fix-mesg-n-when-not-tty.sh",
-        "scripts/04-configure-chrony.sh",
-        "scripts/05-configure-timedate-settings.sh"
+        "scripts/03-configure-chrony.sh",
+        "scripts/04-configure-timedate-settings.sh",
+        "scripts/05-debian-fix-mesg-n-when-not-tty.sh",
+        "scripts/06-debian-fix-console-setup-keyboard.sh"
       ]
     },
     {
