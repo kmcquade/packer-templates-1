@@ -1,6 +1,6 @@
 {
   "variables": {
-    "template": "debian-88-x86_64",
+    "template": "debian-89-x86_64",
     "guest_os_type_vmware": "debian8-64",
     "guest_os_type_virtualbox": "Debian_64",
     "part_scheme": "std",
@@ -8,8 +8,8 @@
     "debug": "false",
     "headless": "true",
 
-    "iso_url": "file:///Users/dan/stuff/iso/os/debian/debian8.8x86_64/debian-8.8.0-amd64-CD-1.iso",
-    "iso_checksum": "83d62419780567e0ffb3622d5a4a66dd00c75aeefd33d4456223304d73fa525c0546d4c21a4809df6d4d89bc055d0247cb0e21922a8684d4a744e13dff3bc61c",
+    "iso_url": "file:///Users/dan/stuff/iso/os/debian/debian8.9x86_64/debian-8.9.0-amd64-netinst.iso",
+    "iso_checksum": "dee715466ebfdc21ad9ef8bbe80a048bacf2d85a231b724315c8b1291922da5363a431da4ce16c0298b81bf7579120c7dfa9dcecf53419714c0e8c84c5878a52",
     "iso_checksum_type": "sha512",
 
     "installer_boot_time": "5s",
